@@ -19,7 +19,6 @@ function setUserName() {
         myHeading.textContent = 'Mozilla 酷毙了，' + myName;
     }
 }
-
 if (!localStorage.getItem('name')) {
     setUserName();
 } else {
